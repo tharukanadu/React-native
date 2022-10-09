@@ -1,4 +1,5 @@
 package com.awesomeproject;
+import com.reactnativecommunity.art.ARTPackage;
 
 import android.app.Application;
 import android.content.Context;
