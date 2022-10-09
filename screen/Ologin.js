@@ -1,7 +1,7 @@
 import React from 'react';
 import { View,StyleSheet,Image,Text,TextInput, TouchableOpacity} from "react-native";
 
- const Ologing=()=>{
+ const Ologing=({navigation})=>{
     return(
 <View>
     <Text style={styles.text}>
@@ -18,7 +18,7 @@ import { View,StyleSheet,Image,Text,TextInput, TouchableOpacity} from "react-nat
 />
 </View>
 
-<TouchableOpacity style={styles.button}>
+<TouchableOpacity style={styles.button} onPress={()=>navigation.navigate("Register")}>
      <Text style={styles.buttontext}>Loging</Text>
      </TouchableOpacity>
  
